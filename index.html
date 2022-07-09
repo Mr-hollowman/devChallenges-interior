@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./interior.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Interior Consultant</title>
+</head>
+<body>
+    <!-- <div class="nav" id="home">
+        <div class="logo">My Interior</div>
+        <div class="links" id="linked">
+            <a href="#home">Home</a>
+            <a href="#home">Collection</a>
+            <a href="#home">About</a>
+            <a href="#home">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="">
+                <i class="fa fa-bars"></i>
+              </a>
+        </div>
+    </div> -->
+    <nav class="navbar">
+        <div class="navbar-container container">
+            <div class="logo">My Interior</div>
+            <input type="checkbox" name="" id="">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <ul class="menu-items">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#home">Collection</a></li>
+                <li><a href="#home">About</a></li>
+                <li><a href="#home">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="center-contant" id="home">
+        <div class="description">
+            <h1>Modern Interior</h1>
+            <p>A full-Service residential & commercial interior design and staging company offering professional organising & eco-services.</p>
+            <a>Read More &#8594;</a>
+        </div>
+        <div class="image-container">
+            <img src="./photo1.png" alt="interior design">
+            <div class="over">
+                <img style="width:50px; border-radius: 50%;" src="./photo2.png" alt="profile photo">
+                <div class="name">
+                    <span class="creator-name">Aliza Webber</span>
+                    <span class="creator">Interior Designer</span>
+                </div>  
+                <span class="top">Designed in 2022 by selvaguru</span>
+            </div>
+        </div>
+
+    </div>
+    <div class="footer">
+        <small>created by <a href="https://devchallenges.io/portfolio/Mr-hollowman"><b>Mr-hollowman</b></a>- devChallenges.io</small>
+    </div>
+    <script>
+        function myFunction() {
+            var y = document.getElementById("main");
+            if (y.className === "main") {
+                y.className += "hide";
+            } else {
+                y.className = "main";
+            }
+            var x = document.getElementById("linked");
+            if (x.className === "links") {
+                x.className += "hamburger";
+            } else {
+                x.className = "links";
+            }
+
+        }
+    </script>
+</body>
+</html>
